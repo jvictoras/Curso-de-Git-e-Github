@@ -5,7 +5,7 @@ public class ObtendoMedia {
     private double media;
     private CadastrarAluno cadastroNotas;
 
-    ObtendoMedia(CadastrarAluno cadastroNotas){
+    ObtendoMedia(double media, CadastrarAluno cadastroNotas){
         this.media = media;
         this.cadastroNotas = cadastroNotas;
     }
